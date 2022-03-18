@@ -1,0 +1,67 @@
+body{
+    background-repeat: no-repeat;
+    background-image: url("images/large_44805106-L.jpg");
+    background-size: cover ;
+    background-attachment: fixed;
+    position: relative;
+    overflow-y: hidden;
+
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+}
+#menu ul{
+    margin-left: 70%;
+    text-align: right;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: inherit;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    transition: linear;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    color: rgb(255, 255, 28);
+}
+#content {
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+    padding-top: 50px;
+    color: rgb(10, 11, 12);
+}
+#content p{
+    padding: 10px;
+    color: rgb(245, 245, 14);
+    font-weight: bold;
+}
+#content a{
+    font-size: 20px;
+    padding:10px;
+    margin: 12px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgba(135, 22, 228, 0.801);
+    color: rgb(255, 255, 255);
+
+}
+#content a:hover{
+    background-color: rgba(255, 255, 28);
+    transition: 300ms ease-out;
+    transform: translate(0, -5px, 0);
+    
+}
